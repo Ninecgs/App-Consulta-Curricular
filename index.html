@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title> Tarefa 02 Programacao Funcional </title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+    
+    
+  </head>
+
+  <body>
+    
+    <main class="conteudo">  
+
+        <section class="conteudo-principal">  
+         
+           <h1 class="conteudo-p-titulo">Histórico Estudantil</h1>
+           <img src="arte.svg" class="img" alt="artezinea">
+           <h3 class="conteudo-p-subtitulo"> Insira os dados necessários abaixo para gerar a análise do histórico estudantil: </h3>
+           
+           <textarea class="conteudo-p-textarea" id=input type="text" placeholder="Insira os dados necessários..."></textarea>
+           <button class="conteudo-p-botao" onclick="input()"> Analisar </button> 
+        </section>
+       
+        <section class="conteudo-secundario" id="informacoes" style="display: none"> 
+        <div class="card-info">
+        <div>
+           <p class="conteudo-s-txt">Tempo de curso em periodos : <span id="periodosCursados"></span></p></div></div>
+           
+           
+            <div class="card-info">
+        <div>
+           <p class="conteudo-s-txt">Media geral ponderada pela CH : <span id="mediaPonderada"></span></p></div></div>
+            <div class="card-info">
+        <div>
+           <p class="conteudo-s-txt">Desvio padrao de média geral : <span id="dpMedia"></span></p></div></div>
+            <div class="card-info">
+        <div>
+           <p class="conteudo-s-txt">Lista de disciplinas com aprovação : <span id="discAprovadas"></span></p></div></div>
+            <div class="card-info">
+        <div>
+           <p class="conteudo-s-txt">Lista de disciplinas com reprovação :<span id="discReprovadas"></span></p> </div></div>
+            <div class="card-info">
+        <div>
+           <p class="conteudo-s-txt">Carga horaria total cursada : <span id="somaCH"></span></p></div></div>
+            <div class="card-info">
+        <div>
+           <p class="conteudo-s-txt">Media geral ponderada das disciplinas de cada departamento : <span id="medPorDepto"></span></p>
+         </div>
+        </div>
+         
+        </section>
+        
+    
+    </main>
+   
+  
+
+    
+  </body>
+  <footer> <br><a href="https://storyset.com/education">Education illustrations by Storyset</a> </footer>
+</html>
